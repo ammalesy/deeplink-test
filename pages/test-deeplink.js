@@ -1,9 +1,4 @@
 export default function TestDeeplink() {
-  const handleDeeplinkTest = () => {
-    const url = "https://nuizoro.xyz/deeplink?token=xxx";
-    window.open(url, '_blank');
-  };
-
   return (
     <div style={{ 
       padding: '50px', 
@@ -35,12 +30,15 @@ export default function TestDeeplink() {
           https://nuizoro.xyz/deeplink?token=xxx
         </p>
         
-        <button 
-          onClick={handleDeeplinkTest}
+        <a 
+          href="https://nuizoro.xyz/deeplink?token=xxx"
+          target="_blank"
+          rel="noopener noreferrer"
           style={{
+            display: 'inline-block',
             background: '#007bff',
             color: 'white',
-            border: 'none',
+            textDecoration: 'none',
             padding: '15px 30px',
             fontSize: '18px',
             borderRadius: '8px',
@@ -48,17 +46,9 @@ export default function TestDeeplink() {
             boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
             transition: 'all 0.2s'
           }}
-          onMouseOver={(e) => {
-            e.target.style.background = '#0056b3';
-            e.target.style.transform = 'translateY(-1px)';
-          }}
-          onMouseOut={(e) => {
-            e.target.style.background = '#007bff';
-            e.target.style.transform = 'translateY(0)';
-          }}
         >
           🚀 เปิด Deeplink
-        </button>
+        </a>
       </div>
 
       <div style={{ 
@@ -85,7 +75,7 @@ export default function TestDeeplink() {
         <h3>🔍 ข้อมูลเพิ่มเติม:</h3>
         <p>
           กลับไปหน้าแรก: <a href="/" style={{ color: '#007bff' }}>Home</a> | 
-          <a href="https://nuizoro.xyz/deeplink?token=xxx" target='_blank' style={{ color: '#007bff', marginLeft: '10px' }}>Deeplink Page</a>
+          <a href="/deeplink" style={{ color: '#007bff', marginLeft: '10px' }}>Deeplink Page</a>
         </p>
         <p style={{ fontSize: '14px', color: '#666', marginTop: '10px' }}>
           หมายเหตุ: Universal Link จะทำงานได้เมื่อเข้าผ่าน Safari และมีแอปที่รองรับติดตั้งอยู่
