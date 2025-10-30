@@ -85,7 +85,7 @@ export default function TestDeeplink() {
         <h3>🔍 ข้อมูลเพิ่มเติม:</h3>
         <p>
           กลับไปหน้าแรก: <a href="/" style={{ color: '#007bff' }}>Home</a> | 
-          <a href="/deeplink" style={{ color: '#007bff', marginLeft: '10px' }}>Deeplink Page</a>
+          <a href="/deeplink?token=xxx" style={{ color: '#007bff', marginLeft: '10px' }}>Deeplink Page</a>
         </p>
         <p style={{ fontSize: '14px', color: '#666', marginTop: '10px' }}>
           หมายเหตุ: Universal Link จะทำงานได้เมื่อเข้าผ่าน Safari และมีแอปที่รองรับติดตั้งอยู่
