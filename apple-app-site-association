@@ -3,46 +3,15 @@
         "details": [
             {
                 "appIDs": [
-                    "33C5EP5X49.com.kasikornbank.retail.mbanking.wap",
-                    "P7J7XPF2TM.com.ksoft.kplus.victoria"
+                    "P7J7XPF2TM.com.kasikornbank.kplus.victoria"
                 ],
                 "components": [
                     {
-                        "/": "/th/actionwithkplus/*",
+                        "/": "/deeplink/*",
                         "?": {
-                            "ktoken": "*"
+                            "token": "*"
                         },
-                        "comment": "Action with KPlus Universal Link"
-                    },
-                    {
-                        "/": "/th/kplus/kplusalipay/*",
-                        "?": {
-                            "partnerName": "*"
-                        },
-                        "comment": "Universal Link for partner payment (ex. alipay)"
-                    },
-                    {
-                        "/": "/en/kplus/kplusalipay/*",
-                        "?": {
-                            "partnerName": "*"
-                        },
-                        "comment": "Universal Link for partner payment (ex. alipay)"
-                    },
-                    {
-                        "/": "/th/kplus/deeplinkkplus/*",
-                        "?": {
-                            "tokenId": "*",
-                            "nextAction": "*"
-                        },
-                        "comment": "Apple Universal Link (authenwithkplus, actionwithkplus)"
-                    },
-                    {
-                        "/": "/en/kplus/deeplinkkplus/*",
-                        "?": {
-                            "tokenId": "*",
-                            "nextAction": "*"
-                        },
-                        "comment": "Apple Universal Link (authenwithkplus, actionwithkplus)"
+                        "comment": "Test Deeplink"
                     }
                 ]
             }
