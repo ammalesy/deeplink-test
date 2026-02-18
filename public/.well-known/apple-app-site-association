@@ -13,6 +13,22 @@
                             "token": "*"
                         },
                         "comment": "Test Deeplink"
+                    },
+                    {
+                        "/": "/th/kplus/deeplinkkplus/*",
+                        "?": {
+                            "tokenId": "*",
+                            "nextAction": "*"
+                        },
+                        "comment": "Apple Universal Link (authenwithkplus, actionwithkplus)"
+                    },
+                    {
+                        "/": "/en/kplus/deeplinkkplus/*",
+                        "?": {
+                            "tokenId": "*",
+                            "nextAction": "*"
+                        },
+                        "comment": "Apple Universal Link (authenwithkplus, actionwithkplus)"
                     }
                 ]
             }
