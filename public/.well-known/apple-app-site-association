@@ -3,7 +3,8 @@
         "details": [
             {
                 "appIDs": [
-                    "P7J7XPF2TM.com.kasikornbank.kplus.victoria"
+                    "P7J7XPF2TM.com.kasikornbank.kplus.victoria",
+                    "P7J7XPF2TM.com.kasikornbank.kplus.simulator"
                 ],
                 "components": [
                     {
