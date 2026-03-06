@@ -37,5 +37,15 @@
              "0E:B2:FB:51:6F:9D:A8:FD:BD:F0:38:2D:6C:FF:DF:1B:D0:FA:98:0C:22:C9:A2:3E:B3:69:28:0F:14:28:1B:42"
           ]
        }
+    },
+    {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.kasikornbank.kplus.simulator",
+      "sha256_cert_fingerprints": [
+        "88:0A:DA:6A:0A:E2:EB:72:5D:C6:5D:BF:1A:66:49:2F:70:CC:09:B3:02:85:BB:BB:A1:0E:CB:D5:B9:69:73:EC"
+      ]
     }
+  }
  ]
